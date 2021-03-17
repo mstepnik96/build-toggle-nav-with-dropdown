@@ -1,1 +1,56 @@
 /* developer styles goes here */
+body {
+    color: #00263e;
+    background: linear-gradient(rgb(255, 105, 180), rgb(255, 186, 0));
+    /* default body (paragraphs, a) fomt family goes here */
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    padding: 1rem;
+}
+
+/* ****************************Typography***************************** */
+h1 a{
+    color: #00263e;
+    text-decoration: none;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+h1::first-letter{
+    color: rgb(255, 105, 180);
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+/* *************************header styles**************************** */
+
+header {
+    background: white;
+}
+
+.menu-icon{
+    width: 40px;
+    text-align: center;
+}
+
+header .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 1300px){
+    .container{
+        padding: 0;
+        max-width: 75rem;
+        padding: 1rem 0;
+        margin: 0 auto;
+    }
+}
